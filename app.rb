@@ -21,7 +21,8 @@ end
 
 get "/multiply/:num1/:num2" do 
   da_product_m8 = params[num1].to_i*[num2].to_i
- return da_product_m8
+  
+ return "#{da_product_m8}"
 end 
 
 
