@@ -21,8 +21,6 @@ end
 
 get "/multiply/:num1/:num2" do 
   multiplicationzzzzz = params[num1].to_i*[num2].to_i
-  
-  
 end 
 
 
