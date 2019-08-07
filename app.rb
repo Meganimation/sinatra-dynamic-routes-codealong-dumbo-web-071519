@@ -20,7 +20,7 @@ end
 
 
 get "/multiply/:num1/:num2" do 
-  @da_product_m8 = params["num1"].to_i * params["num2"].to_i
+  @da_product_m8 = params[:num1].to_i * params[:num2].to_i
   
 "#{@da_product_m8}"
 end 
